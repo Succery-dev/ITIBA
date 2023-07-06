@@ -3,7 +3,7 @@ require('dotenv').config()
 
 module.exports = {
 	solidity: {
-		version: "0.8.9",
+		version: "0.8.13",
 		settings: {
 			optimizer: {
 				enabled: true
@@ -20,7 +20,13 @@ module.exports = {
 		ETH_GOERLI: {
 			accounts: [`${process.env.PRIVATE_KEY}`],
 			url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`
+		},
+
+		OASYS: {
+			accounts: [`${process.env.PRIVATE_KEY}`],
+			url: `https://rpc.testnet.oasys.games` // https://scan.testnet.oasys.games/  9372
 		}
+
 	},
 	etherscan: {
 		apiKey: `${process.env.ETHERSCAN_API_KEY}`
@@ -28,4 +34,5 @@ module.exports = {
 	paths: {
 		artifacts: './artifacts'
 	}
+
 }
