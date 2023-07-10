@@ -1,3 +1,4 @@
-import NftCard from "./NftCard";
+import GameCard from "./GameCard";
+import MarketScaffold from "./MarketScaffold";
 
-export { NftCard };
+export { GameCard, MarketScaffold };

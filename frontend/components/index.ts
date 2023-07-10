@@ -1,3 +1,3 @@
-import { NftCard } from "./Marketplace";
+import { GameCard, MarketScaffold } from "./Marketplace";
 
-export { NftCard };
+export { GameCard, MarketScaffold };
