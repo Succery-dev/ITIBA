@@ -1,37 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html,
-body {
-	font-family: 'Rubik';
-	font-weight: normal;
-}
-h1{
-	margin-bottom: 1rem;
-}
-h2{
-	margin-bottom: .5rem;
-	font-weight: normal;
-
+.gradient-linear-transparent-primary-secondary {
+  background-image: linear-gradient(
+    rgba(255, 0, 0, 0) 5%,
+    rgba(124, 61, 150, 0.7) 60%,
+    #2f3cb2 95%
+  );
 }
 
-p{
-	line-height: 1.5rem;
-	font-weight: lighter;
-
-}
-
-a {
-	color: inherit;
-	text-decoration: none;
-}
-
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	html {
-	}
+.gradient-linear-primary-secondary-text {
+  background: -webkit-linear-gradient(0deg, #bd00ff, #5250c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
