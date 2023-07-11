@@ -5,16 +5,16 @@ import Image from "next/image";
 import React from "react";
 
 // Custom Component Imports
-import GameCard from "./GameCard";
+import NftCard from "./NftCard";
 
-const MarketScaffold = () => {
+const GameMarketplace = () => {
   return (
     <div>
       {/* Header */}
       <section className="w-full h-80 gradient-linear-transparent-secondary-primary flex items-center">
         <div className="w-full flex flex-col gap-8 mx-14 mb-8">
           <h1 className="font-extrabold text-[64px] leading-[85px]">
-            Explore Marketplace
+            Explore TBAs
           </h1>
           <div className="bg-backgroundColorDark flex flex-row gap-8 w-1/2 items-center py-2 px-4 rounded-lg">
             <Image src={SearchIcon} alt="Search" className=" w-[8%]" />
@@ -29,15 +29,15 @@ const MarketScaffold = () => {
       </section>
       {/* Cards */}
       <section className="w-full grid grid-cols-3 place-items-center gap-8 px-20 py-24">
-        <GameCard />
-        <GameCard />
-        <GameCard />
-        <GameCard />
-        <GameCard />
-        <GameCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
+        <NftCard />
       </section>
     </div>
   );
 };
 
-export default MarketScaffold;
+export default GameMarketplace;

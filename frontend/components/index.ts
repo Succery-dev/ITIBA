@@ -1,3 +1,12 @@
-import { GameCard, MarketScaffold } from "./Marketplace";
+// Marketplace Imports
+import {
+  GameCard,
+  GameMarketplace,
+  NftCard,
+  NftMarketplace,
+} from "./Marketplace";
 
-export { GameCard, MarketScaffold };
+// Aesthetics Imports
+import { GlowBackground } from "./Aesthetics";
+
+export { GameCard, GameMarketplace, NftCard, NftMarketplace, GlowBackground };

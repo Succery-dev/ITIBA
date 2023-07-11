@@ -4,14 +4,14 @@ import React from "react";
 import "@/app/globals.css";
 
 // Custom Component Imports
-import { GameMarketplace } from "@/components";
+import { NftMarketplace } from "@/components";
 
-const GameMarketplacePage = () => {
+const NftMarketplacePage = () => {
   return (
     <div className="bg-backgroundColor min-w-[100vw] min-h-screen h-full">
-      <GameMarketplace />
+      <NftMarketplace />
     </div>
   );
 };
 
-export default GameMarketplacePage;
+export default NftMarketplacePage;

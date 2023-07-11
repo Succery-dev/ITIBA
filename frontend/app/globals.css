@@ -14,7 +14,7 @@
   background-image: linear-gradient(
     0deg,
     rgba(255, 0, 0, 0) 2%,
-    rgba(192, 49, 253,0.8) 20%,
+    rgba(192, 49, 253, 0.8) 20%,
     #7231fd 100%
   );
 }
@@ -23,4 +23,18 @@
   background: -webkit-linear-gradient(0deg, #bd00ff, #5250c3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.gradient-radial-secondary-transparent {
+  bacground-image: radial-gradient(
+    rgba(114, 49, 253, 0.6),
+    rgba(114, 49, 253, 0)
+  );
+}
+
+.gradient-radial-secondary-transparent {
+  bacground-image: radial-gradient(
+    rgba(192, 49, 253, 0.6),
+    rgba(192, 49, 253, 0)
+  );
 }

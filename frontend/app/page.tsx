@@ -41,7 +41,7 @@ export default function Home() {
         {/* Links */}
         <div className="flex flex-row justify-between text-3xl mt-4">
           <Link
-            href=""
+            href="/marketplace"
             className="py-2 px-20 bg-primary rounded-md cursor-pointer"
           >
             Buy

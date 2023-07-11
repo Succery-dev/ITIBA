@@ -7,7 +7,7 @@ import { GameLogo, CardDetailSection } from "@/assets";
 
 const GameCard = () => {
   return (
-    <Link href="/marketplace/xociety/">
+    <Link href="/marketplace/xociety/" className="cursor-pointer">
       <section className="bg-backgroundColorDark p-2 flex flex-col w-fit rounded-lg relative">
         {/* Card Image */}
         <Image
