@@ -2302,342 +2302,6 @@
         "Proxy"
       ]
     },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/core/EntryPoint.sol": {
-      "lastModificationDate": 1688624596964,
-      "contentHash": "ad550e84f21c0a82e53abdca70feafee",
-      "sourceName": "contracts/EntryPoint/core/EntryPoint.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../interfaces/IAccount.sol",
-        "../interfaces/IPaymaster.sol",
-        "../interfaces/IEntryPoint.sol",
-        "../utils/Exec.sol",
-        "./StakeManager.sol",
-        "./SenderCreator.sol",
-        "./Helpers.sol",
-        "./NonceManager.sol",
-        "@openzeppelin/contracts/security/ReentrancyGuard.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "EntryPoint"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/IAccount.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "6d787a742dcf67af8bebad8a8db7b78e",
-      "sourceName": "contracts/EntryPoint/interfaces/IAccount.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./UserOperation.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "IAccount"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/IPaymaster.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "4737c1fae42666f1b91fdac6a612076b",
-      "sourceName": "contracts/EntryPoint/interfaces/IPaymaster.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./UserOperation.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "IPaymaster"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/IEntryPoint.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "f88a97ac988a378551551be9ea4ee65e",
-      "sourceName": "contracts/EntryPoint/interfaces/IEntryPoint.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./UserOperation.sol",
-        "./IStakeManager.sol",
-        "./IAggregator.sol",
-        "./INonceManager.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "IEntryPoint"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/utils/Exec.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "4e8f2b61ef7b1a60ae834edb15752735",
-      "sourceName": "contracts/EntryPoint/utils/Exec.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.7.5 <0.9.0"
-      ],
-      "artifacts": [
-        "Exec"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/core/StakeManager.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "613d8c20b990bcf8cf2131ae2130a2c8",
-      "sourceName": "contracts/EntryPoint/core/StakeManager.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../interfaces/IStakeManager.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "StakeManager"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/core/SenderCreator.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "4910181341b8875940c6ea89500377a0",
-      "sourceName": "contracts/EntryPoint/core/SenderCreator.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "SenderCreator"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/core/Helpers.sol": {
-      "lastModificationDate": 1688624596964,
-      "contentHash": "3cbc58efa815f026e5e180817b65c653",
-      "sourceName": "contracts/EntryPoint/core/Helpers.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": []
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/core/NonceManager.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "6a3c752314494381d38f83abba1bdba4",
-      "sourceName": "contracts/EntryPoint/core/NonceManager.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../interfaces/IEntryPoint.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "NonceManager"
-      ]
-    },
     "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol": {
       "lastModificationDate": 1688620305916,
       "contentHash": "1535f8c0c68463f8c1b5239f7584e71f",
@@ -2671,150 +2335,6 @@
       ],
       "artifacts": [
         "ReentrancyGuard"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/UserOperation.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "e605ec59ee4889ea6ef8b5332e7da0d8",
-      "sourceName": "contracts/EntryPoint/interfaces/UserOperation.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../core/Helpers.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "UserOperationLib"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/IStakeManager.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "e5c534a14fbf384a02ed5f007d54b1f0",
-      "sourceName": "contracts/EntryPoint/interfaces/IStakeManager.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "IStakeManager"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/IAggregator.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "70c22a1f7e8ee0bd97fcabb493c4fca6",
-      "sourceName": "contracts/EntryPoint/interfaces/IAggregator.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./UserOperation.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "IAggregator"
-      ]
-    },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/EntryPoint/interfaces/INonceManager.sol": {
-      "lastModificationDate": 1688624596968,
-      "contentHash": "58293337a68c401ac395a955ab972702",
-      "sourceName": "contracts/EntryPoint/interfaces/INonceManager.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.12"
-      ],
-      "artifacts": [
-        "INonceManager"
       ]
     },
     "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
@@ -2891,43 +2411,6 @@
         "Ownable2Step"
       ]
     },
-    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/AccountGuardian.sol": {
-      "lastModificationDate": 1688624769484,
-      "contentHash": "6dfe54166cf52a3574b7357068a86735",
-      "sourceName": "contracts/AccountGuardian.sol",
-      "solcConfig": {
-        "version": "0.8.13",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/access/Ownable2Step.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.13"
-      ],
-      "artifacts": [
-        "AccountGuardian"
-      ]
-    },
     "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/accountNFT.sol": {
       "lastModificationDate": 1688625875448,
       "contentHash": "edfc30823a7cdf65786464fdf9457104",
@@ -2965,6 +2448,45 @@
       ],
       "artifacts": [
         "accountNFT"
+      ]
+    },
+    "/home/werkwork/Documents/github/E-Builders/ITIBA/backend/contracts/MyContract.sol": {
+      "lastModificationDate": 1688630860132,
+      "contentHash": "2158fec84fb3b02558155baf5c6bed68",
+      "sourceName": "contracts/MyContract.sol",
+      "solcConfig": {
+        "version": "0.8.13",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "MyContract"
       ]
     }
   }
