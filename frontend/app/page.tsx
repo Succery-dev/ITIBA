@@ -7,7 +7,7 @@ import { HomeGameAvatar, WaveBackground } from "@/assets";
 
 export default function Home() {
   return (
-    <main className="bg-backgroundColor min-w-[100vw] min-h-screen h-full">
+    <main className="bg-backgroundColor min-w-[100vw] min-h-screen h-full pt-16">
       {/* Footer-Gradient */}
       <div className="w-full h-[250px] gradient-linear-transparent-primary-secondary absolute bottom-0"></div>
 
@@ -15,13 +15,13 @@ export default function Home() {
       <Image
         src={WaveBackground}
         alt=""
-        className="absolute top-[-200px] left-0"
+        className="absolute top-[30px] left-0"
       />
       {/* Avatar */}
       <Image
         src={HomeGameAvatar}
         alt="Avatar"
-        className="absolute left-[-115px] bottom-0"
+        className="absolute left-[-115px] -bottom-7"
       />
 
       <section className="flex flex-col gap-8 w-fit absolute right-0 mr-28 top-[45%] -translate-y-1/2">
@@ -47,7 +47,7 @@ export default function Home() {
             Buy
           </Link>
           <Link
-            href=""
+            href="/create-tba"
             className="py-2 px-20 bg-secondary rounded-md cursor-pointer"
           >
             Sell

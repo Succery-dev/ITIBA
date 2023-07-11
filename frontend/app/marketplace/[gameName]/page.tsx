@@ -8,9 +8,9 @@ import { NftMarketplace } from "@/components";
 
 const NftMarketplacePage = () => {
   return (
-    <div className="bg-backgroundColor min-w-[100vw] min-h-screen h-full">
+    <main className="bg-backgroundColor min-w-[100vw] min-h-screen h-full pt-12">
       <NftMarketplace />
-    </div>
+    </main>
   );
 };
 

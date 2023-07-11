@@ -6,13 +6,14 @@ import React from "react";
 
 // Custom Component Imports
 import GameCard from "./GameCard";
+import { GlowBackground } from "../Aesthetics";
 
 const GameMarketplace = () => {
   return (
     <div>
       {/* Header */}
-      <section className="w-full h-80 gradient-linear-transparent-secondary-primary flex items-center">
-        <div className="w-full flex flex-col gap-8 mx-14 mb-8">
+      <section className="w-full h-80 flex items-center">
+        <div className="w-full flex flex-col gap-8 p-14 mt-11 gradient-linear-transparent-secondary-primary">
           <h1 className="font-extrabold text-[64px] leading-[85px]">
             Explore Games
           </h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 const GlowBackground = () => {
   return (
-    <div className="absolute w-screen h-full">
+    <div className="fixed w-screen h-full">
       <div
         className="absolute left-10 top-10 w-[300px] h-[300px] blur-[150px]"
         style={{ background: "rgba(114, 49, 253, 0.6)" }}

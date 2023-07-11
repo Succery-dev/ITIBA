@@ -1,8 +1,6 @@
 "use client";
-// import { WagmiConfig, createConfig } from "wagmi";
-// import { ConnectKitProvider, getDefaultConfig } from "connectkit";
-// import Navbar from "@/components/instructionsComponent/navigation/navbar";
-// import Footer from "@/components/instructionsComponent/navigation/footer";
+
+import { Navbar } from "@/components";
 
 export default function RootLayout({
   children,
@@ -13,9 +11,8 @@ export default function RootLayout({
     <html lang="en">
       <body className="text-textPrimary font-sans">
         <div>
-          {/* <Navbar /> */}
+          <Navbar />
           <div style={{ flexGrow: 1 }}>{children}</div>
-          {/* <Footer /> */}
         </div>
       </body>
     </html>

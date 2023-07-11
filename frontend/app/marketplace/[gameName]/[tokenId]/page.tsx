@@ -10,7 +10,7 @@ import { GlowBackground } from "@/components";
 
 const NftDetailsPage = () => {
   return (
-    <main className="bg-backgroundColor min-w-[100vw] min-h-screen h-full flex justify-center items-center">
+    <main className="bg-backgroundColor min-w-[100vw] min-h-screen h-full flex justify-center items-center pt-12">
       <div className="flex flex-row w-full gap-8 px-24 z-[1]">
         {/* NFT Image */}
         <Image

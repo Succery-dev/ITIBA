@@ -1,3 +1,5 @@
+import Navbar from "./Navbar";
+
 // Marketplace Imports
 import {
   GameCard,
@@ -9,4 +11,11 @@ import {
 // Aesthetics Imports
 import { GlowBackground } from "./Aesthetics";
 
-export { GameCard, GameMarketplace, NftCard, NftMarketplace, GlowBackground };
+export {
+  GameCard,
+  GameMarketplace,
+  NftCard,
+  NftMarketplace,
+  GlowBackground,
+  Navbar,
+};
