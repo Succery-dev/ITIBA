@@ -1,5 +1,8 @@
 import Navbar from "./Navbar";
 
+// Create-TBA
+import { ChooseNft } from "./Create-Tba";
+
 // Marketplace Imports
 import {
   GameCard,
@@ -18,4 +21,5 @@ export {
   NftMarketplace,
   GlowBackground,
   Navbar,
+  ChooseNft,
 };

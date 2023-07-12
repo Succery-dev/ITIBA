@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+}
 
-module.exports = nextConfig;
-
-module.exports = {
-  reactStrictMode: false,
-  webpack: (config) => {
-    config.resolve.fallback = { fs: false, net: false };
-    return config;
-  },
-};
+module.exports = nextConfig

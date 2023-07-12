@@ -1,20 +1,20 @@
-"use-client";
-
-import { SearchIcon } from "@/assets";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 
 // Custom Component Imports
-import GameCard from "./GameCard";
+import { NftCard } from "../../components";
 
-const GameMarketplace = () => {
+// Asset Imports
+import { SearchIcon } from "@/assets";
+
+const ChooseNft = () => {
   return (
     <div>
       {/* Header */}
       <section className="w-full h-80 flex items-center">
         <div className="w-full flex flex-col gap-8 p-14 mt-11 gradient-linear-transparent-secondary-primary">
           <h1 className="font-extrabold text-[64px] leading-[85px]">
-            Explore Games
+            Select NFT
           </h1>
           <div className="bg-backgroundColorDark flex flex-row gap-8 w-1/2 items-center py-2 px-4 rounded-lg">
             <Image src={SearchIcon} alt="Search" className=" w-[8%]" />
@@ -29,15 +29,15 @@ const GameMarketplace = () => {
       </section>
       {/* Cards */}
       <section className="w-full grid grid-cols-3 place-items-center gap-8 px-20 py-24">
-        <GameCard />
-        <GameCard />
-        <GameCard />
-        <GameCard />
-        <GameCard />
-        <GameCard />
+        <NftCard showPrice={false} />
+        <NftCard showPrice={false} />
+        <NftCard showPrice={false} />
+        <NftCard showPrice={false} />
+        <NftCard showPrice={false} />
+        <NftCard showPrice={false} />
       </section>
     </div>
   );
 };
 
-export default GameMarketplace;
+export default ChooseNft;
