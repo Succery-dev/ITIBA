@@ -29,18 +29,18 @@ export default function Home() {
         <section className="flex flex-col gap-8 w-fit absolute right-0 mr-28 top-[45%] -translate-y-1/2">
           {/* Heading */}
           <h1 className="font-extrabold text-[64px] leading-[85px]">
-            <p className="block">Discover, Collect</p>
+            <p className="block">Discover, Collect and</p>
             <p className="block">
-              and Sell{" "}
+              Sell{" "}
               <span className="gradient-linear-primary-secondary-text">
-                TBAs
+                Game Accounts
               </span>
             </p>
           </h1>
           {/* Sub-Heading */}
           <h2 className="font-bold text-textSecondary text-4xl">
-            <p className="block">Discover the most exclusive Gaming</p>
-            <p className="block">account TBAs in our marketplace</p>
+            <p className="block">Discover the most exclusive </p>
+            <p className="block">Gaming accounts in our marketplace!</p>
           </h2>
           {/* Links */}
           <div className="flex flex-row justify-between text-3xl mt-4">
