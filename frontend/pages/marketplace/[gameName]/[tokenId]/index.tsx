@@ -56,7 +56,7 @@ const NftDetailsPage = () => {
                   {/* Owner's Address */}
                   <div>
                     <h3 className="font-semibold text-xl text-textSecondary">
-                      Owner's Address:{" "}
+                      Owner&apos;s Address:{" "}
                     </h3>
                     <p className="text-textTertiary text-lg block">
                       0x3E870F0Cb591646B3bD80935682ED3a970d99C46

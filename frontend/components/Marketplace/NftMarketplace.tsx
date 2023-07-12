@@ -29,12 +29,12 @@ const GameMarketplace = () => {
       </section>
       {/* Cards */}
       <section className="w-full grid grid-cols-3 place-items-center gap-8 px-20 py-24">
-        <NftCard />
-        <NftCard />
-        <NftCard />
-        <NftCard />
-        <NftCard />
-        <NftCard />
+        <NftCard showPrice={true} />
+        <NftCard showPrice={true} />
+        <NftCard showPrice={true} />
+        <NftCard showPrice={true} />
+        <NftCard showPrice={true} />
+        <NftCard showPrice={true} />
       </section>
     </div>
   );
